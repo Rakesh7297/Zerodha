@@ -23,7 +23,7 @@ function Navbar() {
               color: "#333",
             }}
           >
-            Rakesh Choudhary
+            by Rakesh Dhakharwal
           </span>
         </Link>
 
