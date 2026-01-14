@@ -19,7 +19,7 @@ const Login = () => {
     const result = await login(email, password);
 
     if (result.success) {
-      window.location.href = "http://localhost:3001";
+      window.location.href = "https://zerodha-e462.vercel.app/";
  // Redirect to dashboard after login
     } else {
       setError(result.error);
