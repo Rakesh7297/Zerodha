@@ -24,9 +24,9 @@ const MONGO_URL = process.env.MONGO_URL;
 
 // CORS: allow frontend (3000) & dashboard (3001)
 app.use(cors({
-  origin: ["https://zerodha-five-alpha.vercel.app/", "https://zerodha-e462.vercel.app/"],
-  credentials: true,
+  origin: "*",
 }));
+
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
