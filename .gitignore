@@ -1,6 +1,2 @@
-# env files
+node_modules
 .env
-backend/.env
-
-# dependencies
-node_modules/
